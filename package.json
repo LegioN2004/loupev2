@@ -1,0 +1,24 @@
+{
+  "name": "loupe",
+  "version": "2.0.0",
+  "description": "Visualisation of JavaScript's call stack, event loop, and callback queue",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite --port 3051",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/modern-loupe.test.js"
+  },
+  "dependencies": {
+    "acorn": "^8.19.0",
+    "lucide-react": "^1.72.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
+    "vite": "^8.3.8"
+  },
+  "license": "ISC"
+}
